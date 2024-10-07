@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leona Garcia - Asesora de Comunicación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #00BFFF; /* Color Telmex */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #FF6347; /* Color Izzi */
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #008000; /* Color Totalplay */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .logos img {
+            height: 50px;
+            margin: 5px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="date"], input[type="tel"], select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #00BFFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>Leona Garcia</h1>
+    <h2>Asesora de Comunicación</h2>
+</header>
+
+<nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#paquetes-internet">Paquetes de Internet</a>
+    <a href="#formulario">Registro de Clientes</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="sobre-mi">
+    <h3>Sobre mí</h3>
+    <p>Soy Leona García, asesora de comunicación con experiencia en telecomunicaciones. Mi enfoque es ayudar a empresas como Telmex, Telcel, Izzi y Totalplay a optimizar su comunicación y conectar mejor con sus clientes.</p>
+</section>
+
+<section id="paquetes-internet">
+    <h3>Paquetes de Internet</h3>
+    <div class="logos">
+        <img src="telmex_logo.png" alt="Logo Telmex">
+        <img src="telcel_logo.png" alt="Logo Telcel">
+        <img src="izzi_logo.png" alt="Logo Izzi">
+        <img src="totalplay_logo.png" alt="Logo Totalplay">
+    </div>
+    <table>
+        <tr>
+            <th>Proveedor</th>
+            <th>Velocidad</th>
+            <th>Precio Mensual</th>
+            <th>Beneficios</th>
+        </tr>
+        <tr>
+            <td>Telmex</td>
+            <td>50 Mbps</td>
+            <td>$359 MXN</td>
+            <td>Infinitum, teléfono fijo</td>
+        </tr>
+        <tr>
+            <td>Telmex</td>
+            <td>100 Mbps</td>
+            <td>$399 MXN</td>
+            <td>Infinitum, teléfono fijo, Claro Video</td>
+        </tr>
+        <tr>
+            <td>Telmex</td>
+            <td>200 Mbps</td>
+            <td>$599 MXN</td>
+            <td>Infinitum, teléfono fijo, Claro Video</td>
+        </tr>
+        <tr>
+            <td>Telcel</td>
+            <td>10 Mbps</td>
+            <td>$250 MXN</td>
+            <td>Internet móvil, sin límite</td>
+        </tr>
+        <tr>
+            <td>Telcel</td>
+            <td>20 Mbps</td>
+            <td>$450 MXN</td>
+            <td>Internet móvil, sin límite</td>
+        </tr>
+        <tr>
+            <td>Izzi</td>
+            <td>30 Mbps</td>
+            <td>$350 MXN</td>
+            <td>Internet, telefonía, Izzi Go</td>
+        </tr>
+        <tr>
+            <td>Izzi</td>
+            <td>60 Mbps</td>
+            <td>$400 MXN</td>
+            <td>Internet, telefonía, Izzi Go</td>
+        </tr>
+        <tr>
+            <td>Izzi</td>
+            <td>100 Mbps</td>
+            <td>$500 MXN</td>
+            <td>Internet, telefonía, Izzi Go</td>
+        </tr>
+        <tr>
+            <td>Totalplay</td>
+            <td>150 Mbps</td>
+            <td>$549 MXN</td>
+            <td>Internet, TV en HD, telefonía</td>
+        </tr>
+        <tr>
+            <td>Totalplay</td>
+            <td>250 Mbps</td>
+            <td>$749 MXN</td>
+            <td>Internet, TV en HD, telefonía</td>
+        </tr>
+        <tr>
+            <td>Totalplay</td>
+            <td>500 Mbps</td>
+            <td>$999 MXN</td>
+            <td>Internet, TV en HD, telefonía</td>
+        </tr>
+    </table>
+</section>
+
+<section id="formulario">
+    <h3>Registro de Clientes</h3>
+    <form action="https://api.whatsapp.com/send?phone=5218683898471&text=" method="POST">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" placeholder="Calle, Número, Colonia, Código Postal, Municipio, Estado" required>
+
+        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+        <label for="paquete">Paquete de Internet:</label>
+        <select id="paquete" name="paquete" required>
+            <option value="50 Mbps Telmex">50 Mbps Telmex</option>
+            <option value="100 Mbps Telmex">100 Mbps Telmex</option>
+            <option value="200 Mbps Telmex">200 Mbps Telmex</option>
+            <option value="10 Mbps Telcel">10 Mbps Telcel</option>
+            <option value="20 Mbps Telcel">20 Mbps Telcel</option>
+            <option value="30 Mbps Izzi">30 Mbps Izzi</option>
+            <option value="60 Mbps Izzi">60 Mbps Izzi</option>
+            <option value="100 Mbps Izzi">100 Mbps Izzi</option>
+            <option value="150 Mbps Totalplay">150 Mbps Totalplay</option>
+            <option value="250 Mbps Totalplay">250 Mbps Totalplay</option>
+            <option value="500 Mbps Totalplay">500 Mbps Totalplay</option>
+        </select>
+
+        <input type="submit" value="Enviar Datos">
+    </form>
+</section>
+
+<section id="contacto">
+    <h3>Contacto</h3>
+    <p>Si deseas ponerte en contacto conmigo, puedes escribirme a: <a href="mailto:arsusa1989@gmail.com">arsusa1989@gmail.com</a></p>
+    <p>Envíame un mensaje por <a href="https://wa.me/5218683898471" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Leona García</p>
+</footer>
+
+</body>
+</html>
